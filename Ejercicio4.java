@@ -12,7 +12,7 @@ public class Ejercicio4 {
                 resultado += diferencia;
             }
             aux = planta;
-            cont++;
+            cont=1;
         } while (planta != -1);
         System.out.println(resultado);
     }
